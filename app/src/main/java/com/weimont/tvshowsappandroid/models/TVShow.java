@@ -10,7 +10,7 @@ public class TVShow {
     @SerializedName("name")
     private String name;
 
-    @SerializedName("startDate")
+    @SerializedName("start_date")
     private String startDate;
 
     @SerializedName("country")
@@ -22,7 +22,7 @@ public class TVShow {
     @SerializedName("status")
     private String status;
 
-    @SerializedName("thumbnail")
+    @SerializedName("image_thumbnail_path")
     private String thumbnail;
 
     public int getId() {

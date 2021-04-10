@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         viewModel = new ViewModelProvider(this).get(MostPopularTVShowsViewModel.class);
         getMostPopularTVShows();
+        //Toast.makeText(MainActivity.this, "232", Toast.LENGTH_LONG).show();
     }
 
     private void getMostPopularTVShows(){
